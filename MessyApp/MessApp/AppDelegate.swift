@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //TODO: Initialise and Configure your Firebase here:
         
-        
+        FirebaseApp.configure()
+        let myDatabase = Database.database().reference()
+        myDatabase.setValue("Sending data again: test 2")
         
         return true
     }
