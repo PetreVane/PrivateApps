@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B7037A921441E9E00743687 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B7037A821441E9E00743687 /* GoogleService-Info.plist */; };
 		0B94DD442144197800A106EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B94DD432144197800A106EE /* Default-568h@2x.png */; };
+		0BA7DF2D214D61AB00E1E01F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7DF2C214D61AB00E1E01F /* Constants.swift */; };
 		6321A9C31B94EBA10053D2E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6321A9C21B94EBA10053D2E7 /* Images.xcassets */; };
 		6321A9E21B94EBE70053D2E7 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6321A9DB1B94EBE70053D2E7 /* CustomMessageCell.swift */; };
 		6321A9E51B94EBE70053D2E7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6321A9DE1B94EBE70053D2E7 /* MessageCell.xib */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		0B7037A821441E9E00743687 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0B94DD432144197800A106EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0BA7DF2C214D61AB00E1E01F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		40A8666292221E5AD334A8EB /* Pods_MessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B3FBDFBD44B93E7B587747 /* Pods-MessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessApp/Pods-MessApp.debug.xcconfig"; sourceTree = "<group>"; };
 		6321A9B61B94EBA10053D2E7 /* MessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				63E28B241B9A335300FBF6E0 /* Message.swift */,
+				0BA7DF2C214D61AB00E1E01F /* Constants.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				63E28B311B9A337600FBF6E0 /* LogInViewController.swift in Sources */,
 				63E28B2F1B9A337600FBF6E0 /* AppDelegate.swift in Sources */,
 				63E28B301B9A337600FBF6E0 /* ChatViewController.swift in Sources */,
+				0BA7DF2D214D61AB00E1E01F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

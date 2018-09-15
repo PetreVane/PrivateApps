@@ -20,15 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
+        // reference to our brand new database
         let myDatabase = Database.database().reference()
+        // testing sending data to database
         myDatabase.setValue("I am testing cloud database")
         
         
         
         return true
     }
-
-    
     
     
     
