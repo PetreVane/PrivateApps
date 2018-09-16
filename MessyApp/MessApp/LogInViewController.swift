@@ -1,6 +1,9 @@
 //
 //  LogInViewController.swift
-//  Flash Chat
+//  MessyApp
+//
+//  Created by Petre Vane on 15/09/2018.
+//  Copyright © 2018 OrbSec. All rights reserved.
 //
 //  This is the view controller where users login
 
@@ -23,7 +26,7 @@ class LogInViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
    
     @IBAction func logInPressed(_ sender: AnyObject) {
     

@@ -1,6 +1,8 @@
 //
-//  AppDelegate.swift
-//  Flash Chat
+//  MessyApp
+//
+//  Created by Petre Vane on 15/09/2018.
+//  Copyright © 2018 OrbSec. All rights reserved.
 //
 //  The App Delegate listens for events from the system. 
 //  It recieves application level messages like did the app finish launching or did it terminate etc. 
